@@ -12,5 +12,4 @@ build: Dockerfile *.tsv *.pl
 	fi
 
 install-sql:
-	echo OK
-# 	install -m 0644 /home/isucon9-qualify/initial-data/result/initial.sql ../webapp/sql/initial.sql
+	install -m 0644 /home/isucon9-qualify/initial-data/result/initial.sql ../webapp/sql/initial.sql
