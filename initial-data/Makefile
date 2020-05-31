@@ -11,5 +11,6 @@ build: Dockerfile *.tsv *.pl
 	--name isu-main \
 	isucon9-qualify/initial-data
 
-# install-sql:
+install-sql:
+	echo OK
 # 	install -m 0644 /home/isucon9-qualify/initial-data/result/initial.sql ../webapp/sql/initial.sql
