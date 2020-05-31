@@ -9,7 +9,7 @@ build: Dockerfile *.tsv *.pl
 	-v $(INITPATH)/isucon9-qualify/initial-data/result:/opt/initial-data/result \
 	-v $(INITPATH)/isucon9-qualify/initial-data/pwcache:/opt/initial-data/pwcache \
 	--name isu-main \
-	-it isucon9-qualify/initial-data
+	isucon9-qualify/initial-data
 
 install-sql:
 	echo OK
